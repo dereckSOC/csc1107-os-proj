@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Prompt the user to enter a list of numbers separated by spaces
-printf "Enter a list of numbers, with spaces: "
-read -a ARRAY # Read input into an array
-
 # Function to find the largest number in a list
 find_largest() {
     # Check if any arguments were provided
@@ -34,5 +30,5 @@ find_largest() {
     echo "$largest is the largest number"
 }
 
-# Call the function with all values in the array
-find_largest "${ARRAY[@]}"
+# Call function with command line arguments
+find_largest "$@"

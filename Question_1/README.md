@@ -1,11 +1,11 @@
-HIHI
-This program allows detection of multiple USB insertion into the Raspberry PI. 
+HIHI<br/>
+This program allows detection of multiple USB insertion into the Raspberry PI.<br/>
 
-Things to note:
-1. To run the program, ensure all four files are in the same folder\n
-2. In the Makefile, ensure the KDIR path is edited to your own linux kernel source path\n
-3. Run the commands:\n
-   chmod +x Makefile\n
-   chmod +x run_usb_detection.sh\n
+Things to note:<br/>
+1. To run the program, ensure all four files are in the same folder<br/>
+2. In the Makefile, ensure the KDIR path is edited to your own linux kernel source path<br/>
+3. Run the commands:<br/>
+   chmod +x Makefile<br/>
+   chmod +x run_usb_detection.sh<br/>
 5. Finally run the run_usb_detection.sh script to start the program!
 
